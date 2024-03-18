@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Página de Libros</title>
+<style>
+  body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background: linear-gradient(135deg, #FFA500, #FFFF00); /* Degradado de color de naranja a amarillento */
+  }
+
+  #header {
+    background-color: #333; /* Color para la página superior */
+    color: white;
+    padding: 20px;
+    text-align: left;
+  }
+
+  #header nav a {
+    color: white;
+    text-decoration: none;
+    padding: 5px 10px;
+    transition: background-image 0.3s; /* Transición suave del color de fondo */
+    background-image: none; /* Asegura que no haya imagen de fondo inicialmente */
+  }
+
+  #header nav a:hover {
+    background-image: url('orange_bg.jpg'); /* Cambia la imagen de fondo al pasar el mouse */
+    background-size: cover; /* Ajusta el tamaño de la imagen de fondo */
+  }
+
+  #content {
+    padding: 20px;
+  }
+
+  #image-container {
+    width: 80%;
+    overflow: hidden;
+  }
+
+  #image-container img {
+    width: 100%;
+    height: auto;
+    display: block;
+  }
+
+  .text-container {
+    width: 50%;
+    float: left;
+    padding: 20px;
+  }
+  text-container2 {
+    width: 50%;
+    float: right;
+    padding: 20px;
+  }
+
+  #footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+  }
+</style>
+</head>
+<body>
+<div id="header">
+  <h1>Página de Libros</h1>
+  <nav>
+    <a href="videojuegos.html">Videojuegos</a> |
+    <a href="Index.html">Inicio</a> |
+    <a href="autor.html">Autor</a> |
+    <a href="peliculas.html">Películas</a>
+  </nav>
+</div>
+
+<div id="content">
+  <div id="image-container">
+    <img src="descarga.jpeg" alt="Imagen Horizontal">
+  </div>
+
+  <div class="text-container">
+    <h2>DUNE LEYEND</h2>
+    <p>Leyendas de Dune es una trilogía de novelas de ciencia ficción original de Brian Herbert y Kevin J. Anderson, un preludio a la saga de Dune de Frank Herbert ambientado en la época de la Yihad Butleriana contra las máquinas pensantes. Brian Herbert y Kevin J. Anderson afirman que sus novelas parten de notas dejadas por Frank Herbert antes de su muerte.</p>
+  </div>
+
+  <div class="text-container2">
+    <h2>Historia</h2>
+    <p>El libro comienza con un escrito de la Princesa Irulan Corrino, personaje de la saga original, explicando el contexto y los acontecimientos históricos que llevaron, unos 10 000 años antes de los eventos de Dune, a la Yihad Butleriana. Cuando el Imperio Antiguo empezó a decaer, y la mayoría de la gente delegaba en máquinas todas las tareas, un visionario que tomó el nombre de Tláloc intentó revivir el espíritu humano. Pero fueron unos inadaptados los que le siguieron. Tomaron el nombre de antiguos dioses y diosas y formaron con Tlaloc el grupo de los Titanes. Dotaron a las máquinas de ciertas características humanas, como la voluntad de conquistar, y las utilizaron como un ejército contra la Humanidad, derrocando al Imperio Antiguo y conquistando prácticamente toda la galaxia conocida.</p>
+  </div>
+</div>
+</body>
+</html>

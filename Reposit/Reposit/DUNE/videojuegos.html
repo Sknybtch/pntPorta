@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Página de Videojuegos</title>
+<style>
+  body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background: linear-gradient(135deg, #FFA500, #7e4b09); /* Degradado de color de naranja a amarillento */
+  }
+
+  #header {
+    background-color: #333; /* Color para la página superior */
+    color: white;
+    padding: 20px;
+    text-align: center;
+  }
+
+  #header nav a {
+    color: white;
+    text-decoration: none;
+    padding: 5px 10px;
+    transition: background-image 0.3s; /* Transición suave del color de fondo */
+    background-image: none; /* Asegura que no haya imagen de fondo inicialmente */
+  }
+
+  #header nav a:hover {
+    background-image: url('orange_bg.jpg'); /* Cambia la imagen de fondo al pasar el mouse */
+    background-size: cover; /* Ajusta el tamaño de la imagen de fondo */
+  }
+
+  #content {
+    padding: 20px;
+  }
+
+  .image-column {
+    float: left;
+    width: 33.33%;
+    padding: 10px;
+  }
+
+  .image-column img {
+    width: 100%;
+    height: auto;
+    display: block;
+  }
+
+  .text-column {
+    float: left;
+    width: 66.66%;
+    padding: 10px;
+  }
+
+  .text-column p {
+    margin-top: 0; /* Elimina el margen superior del párrafo */
+  }
+</style>
+</head>
+<body>
+<div id="header">
+  <h1>Página de Videojuegos</h1>
+  <nav>
+    <a href="autor.html">Autor</a> |
+    <a href="libros.html">Libros</a> |
+    <a href="Index.html">Inicio</a> |
+    <a href="peliculas.html">Películas</a>
+  </nav>
+</div>
+
+<div id="content">
+  <div class="image-column">
+    <img src="Videogame1.jpg" alt="Videojuego 1">
+  </div>
+  <div class="image-column">
+    <img src="dunenuevo.jpeg" alt="Videojuego 2">
+  </div>
+  <div class="image-column">
+    <img src="DUNE2.jpeg" alt="Videojuego 3">
+  </div>
+
+  <div class="text-column">
+    <h2>Información sobre Videojuegos</h2>
+    <p>Dune es una saga de videojuegos con títulos en nuestra base de datos desde 1992 y que actualmente cuenta con un total de 6 juegos para PS2 y PC.
+
+        En esta página encontrarás el listado completo con todos los juegos de Dune que existen, ordenados según su fecha de lanzamiento para que puedas saber cuál es el último juego de Dune que se ha anunciado o que ya ha salido a la venta, y cuál fue el primer juego de todos con el que se inició la saga.
+        
+        Además, te mostramos la nota que le han dado nuestros analistas a cada una de las entregas, para que sepas cuáles son los mejores juegos de Dune de la historia y los que más merecen la pena actualmente.</p>
+  </div>
+</div>
+
+</body>
+</html>
